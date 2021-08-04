@@ -1,0 +1,13 @@
+CREATE TABLE `ss_user0` (
+  `id` bigint(20) NOT NULL,
+  `name` varchar(255) NOT NULL DEFAULT '',
+  `created_time` datetime DEFAULT CURRENT_TIMESTAMP,
+  KEY `idx_id` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `ss_user1` (
+  `id` bigint(20) NOT NULL,
+  `name` varchar(255) NOT NULL DEFAULT '',
+  `created_time` datetime DEFAULT CURRENT_TIMESTAMP,
+  KEY `idx_id` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
